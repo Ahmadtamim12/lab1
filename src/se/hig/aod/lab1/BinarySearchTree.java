@@ -3,7 +3,9 @@ package se.hig.aod.lab1;
 public class BinarySearchTree<T extends Comparable<T>> implements SearchableDataStructure<T> {
     private TreeNode<T> root;
     private int count = 0;
-
+public static void main(String[] args) {
+	
+}
     private static class TreeNode<T> {
         T data;
         TreeNode<T> left;
@@ -106,3 +108,4 @@ public class BinarySearchTree<T extends Comparable<T>> implements SearchableData
         return root == null;
     }
 }
+
